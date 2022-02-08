@@ -1,14 +1,26 @@
 <template>
   <div class="main">
 
+    <courses/>
+
+    <ourBlogs/>
+
   </div>
 </template>
 
 <script>
+import courses from './sub_components/main/courses.vue'
+import ourBlogs from './sub_components/main/ourBlogs.vue'
+
+
 export default {
   name: 'MAIN',
   props: {
     
+  },
+  components:{
+    courses,
+    ourBlogs
   }
 }
 </script>

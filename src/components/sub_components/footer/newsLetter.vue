@@ -1,20 +1,14 @@
 <template>
-  <div class="header">
-    <NAVbar/>
+  <div class="newsletter">
 
   </div>
 </template>
 
 <script>
-import NAVbar from './sub_components/header/NAVbar.vue'
-
 export default {
-  name: 'HEADER',
+  name: 'newsLetter',
   props: {
     
-  },
-  components:{
-    NAVbar,
   }
 }
 </script>

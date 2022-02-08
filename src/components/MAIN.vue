@@ -92,7 +92,7 @@ export default {
     .pattern{
       position: absolute;
       top: 26px;
-      right: 210px;
+      right: 150px;
       width: 78px;
 
     }
@@ -100,8 +100,8 @@ export default {
       width:70px;
       position: absolute;
       z-index: 3;
-      bottom: 10px;
-      right: 250px;
+      bottom: 30px;
+      right: 200px;
 
     }
   }

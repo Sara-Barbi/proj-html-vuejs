@@ -12,6 +12,7 @@ import HEADER from './components/HEADER.vue';
 import  MAIN from './components/MAIN.vue';
 import FOOTER from './components/FOOTER.vue';
 
+
 export default {
   name: 'App',
   components: {

@@ -1,15 +1,15 @@
 <template>
   <div class="header">
     <NAVbar 
-      v-for='(diciture,index) in navFoot'
-      :key="index"
-      :navigare='diciture'/>
-
+        :arr='navArr'
+        />
+      
   </div>
 </template>
 
 <script>
 import NAVbar from './sub_components/header/NAVbar.vue'
+
 
 export default {
   name: 'HEADER',
@@ -21,25 +21,20 @@ export default {
   },
   data(){
     return{
-        navFoot:[
+        navArr:[
           {
-            Home:'Home'
-          },
-          {
-            Pages:'Pages'
-          },
-          {
-            Courses:'Courses'
-          },        
-          {
-            Features:'Features'
-          },
-          {
-            Blog:'Blog'
-          },
-          {
-            Shop:'Shop'
-          },
+            Home:'Home',
+          
+            Pages:'Pages',
+         
+            Courses:'Courses',
+          
+            Features:'Features',
+          
+            Blog:'Blog',
+         
+            Shop:'Shop',
+          }
         ]
     }
   }

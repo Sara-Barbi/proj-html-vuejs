@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    
     <HEADER/>
     <MAIN/>
     <FOOTER/>
@@ -19,17 +19,28 @@ export default {
     MAIN,
     FOOTER,
 
+  },
+/*
+        {
+          Address:'Address',
+          addressInfo:{
+              add:'382 NE st # 8734 Miami, FL 33179-3899',
+              teleph:'+1(305)547-9909 (9am-5pm EST,Monday-Friday)',
+              email:'support@maxcoach.com'
+
+          }
+        },
+      ]
+    }
   }
+           */ 
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
+  @import './assets/style/global.scss';
+  @import './assets/style/variables.scss';
+
+
 </style>

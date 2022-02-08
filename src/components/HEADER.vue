@@ -1,12 +1,12 @@
 <template>
-  <div class="">
+  <div class="header">
 
   </div>
 </template>
 
 <script>
 export default {
-  name: '',
+  name: 'HEADER',
   props: {
     
   }

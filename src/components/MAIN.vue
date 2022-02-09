@@ -1,41 +1,19 @@
 <template>
   <div class="main">
-    <div class="containerr">
-      <div class="row mt-5 justify-content-center">
-        <div class="col-5  ps-5 ">
-          <p>EVERYTHING IN MAXCOACH</p>
-          <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
-          <p>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
-          <p>Have questions?get Free Guide</p>
+    <div class="firstBack">
+    <workCulture/>
+    <div class="containerr ">
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="smallDiciture">JOIN MAXCOACH AT BEST</div>
+          <h2>Latest Online <h2 class="thinH2">Courses</h2></h2>
         </div>
-        <div class="col-5">
-          <img class='imgPrinc' src="../assets/image/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
-          <img class='imgTop' src="../assets/image/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="">
-          <img class='pattern' src="../assets/image/maxcoach-shape-07-100x100.png" alt="">
-          <img class='circle' src="../assets/image/maxcoach-shape-02.png" alt="">
+        <courses :arrayCour='courses'/>
 
-        </div>
-      </div>
-      <div class="row mt-5">
-
-        <div class="col-5">
-          <img class='imgYou' src="../assets/image/stock-full-hd-11-670x450.jpg" alt="">
-          <img src="../assets/image/maxcoach-shape-05-150x150.png" alt="" class='romboPoints'>
-          <img src="../assets/image/svg-0.svg" alt="" class='svgIMG'>
-          <img class='patternPoints' src="../assets/image/maxcoach-shape-07-100x100.png" alt="">
-          
-
-        </div>
-        <div class="col-5  ps-5 ">
-          <p>EVERYTHING IN MAXCOACH</p>
-          <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
-          <p>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
-          <p>Have questions?get Free Guide</p>
-        </div>
       </div>
     </div>
-
-    <courses/>
+    </div>
+    
 
     <ourBlogs/>
 
@@ -45,6 +23,8 @@
 <script>
 import courses from './sub_components/main/courses.vue'
 import ourBlogs from './sub_components/main/ourBlogs.vue'
+import workCulture from './sub_components/main/workCulture.vue'
+
 
 
 export default {
@@ -54,19 +34,58 @@ export default {
   },
   components:{
     courses,
-    ourBlogs
+    ourBlogs,
+    workCulture
+  },
+  data(){
+    return{
+      courses:[
+        {
+          img: 'course-02-480x298.jpg',
+          price:'$40.00',
+          wtdo:'Learning toWrite as a Professional Author',
+          nlessons:'20 Lessons',
+          nstudents:'50 students',
+          free: false,
+
+        },
+        {
+          img: 'stock-full-hd-03-480x298.jpg',
+          price:'$0.00',
+          wtdo:'Customer-centric Info-Tech Strategies',
+          nlessons:'23 Lessons',
+          nstudents:'789 Students',
+          free: "free",
+
+
+        },
+        {
+          img: 'stock-full-hd-04-480x298.jpg',
+          price:'$19.00',
+          wtdo:'Open Programming Courses for Everyone: Python',
+          nlessons:'17 Lessons',
+          nstudents:'62 Courses',
+          free: false
+
+        },
+        
+      ]
+    }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style  lang="scss">
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
   @import '../assets/style/variables.scss';
-  
+  .firstBack{
+    background-color: #e6e6e4;
+  }
   .containerr{
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-top: 100px;
   }
 
   div{
@@ -119,7 +138,7 @@ export default {
       width: 50px;
       top: 10px ;
       right: 330px ;
-      filter: brightness(50%);
+      
 
     }
     .romboPoints{
@@ -135,6 +154,29 @@ export default {
        bottom: -10px;
        right: 0;
     }
+    .YTsimbol{
+      width: 60px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(64%, -20%);
+      z-index: 2 ;
+    }
+  }
+  .greenNumb{
+    color: #2fab97;
+    font-size: 30px;
+    font-weight: bolder;
+
+  }
+  .smallDiciture{
+   font-size: 12px;
+   color: grey;
+  }
+  .thinH2{
+    color: #2fab97;
+    font-weight: 100;
+    margin-bottom: 0;
   }
   
 

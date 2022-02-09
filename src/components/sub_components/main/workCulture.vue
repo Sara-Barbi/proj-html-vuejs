@@ -1,13 +1,13 @@
 <template>
     <div class="containerr1">
-      <div class="row  justify-content-center">
-        <div class="col-6 mt-5  ps-5 ">
+      <div class="row  justify-content-center ">
+        <div class="col-4 pt-5 mt-5 ps-5 ">
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
           <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
           <span class='smallDiciture view ' >Have questions? <span style="color:#2fab97;">Get Free Guide <i class="view bi-arrow-right"></i></span></span>
         </div>
-        <div class="col-6 mt-5">
+        <div class="col-8 mypa mt-5">
           <img class='imgPrinc' src="../../../assets/image/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
           <img class='imgTop' src="../../../assets/image/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="">
           <img class='pattern' src="../../../assets/image/maxcoach-shape-07-100x100.png" alt="">
@@ -16,7 +16,7 @@
         </div>
       </div>
       
-      <div class="row justify-content-center mt-3">
+      <div class="row justify-content-center mt-5 mb-5">
         <div class="col-3 d-flex flex-column align-items-center"><div class="greenNumb">129+</div><div class='smallDiciture'>ENROLLED LEANERS</div></div>
         <div class="col-3 d-flex flex-column align-items-center"> <div class="greenNumb">80</div><div class='smallDiciture'>FINISHED SESSIONS</div></div>
         <div class="col-3 d-flex flex-column align-items-center"> <div class="greenNumb">4%</div> <div class='smallDiciture'>SATISFACTION RATE</div> </div>
@@ -25,7 +25,7 @@
 
       <div class="row ">
 
-        <div class="col-6 mt-5">
+        <div class="col-8 mt-5">
           <img class='imgYou' src="../../../assets/image/stock-full-hd-11-670x450.jpg" alt="">
           <img class="YTsimbol" src="../../../assets/image/icon-youtube-play.png" alt="">
           <img src="../../../assets/image/maxcoach-shape-05-150x150.png" alt="" class='romboPoints'>
@@ -34,7 +34,7 @@
           
 
         </div>
-        <div class="col-6    mt-5">
+        <div class="col-4 pt-5   mt-5">
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
           <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
@@ -61,11 +61,13 @@ export default {
     margin-right: -10px;
   }
 
-  div{
+  .mypa{
     
     position: relative;
+    height: 400px;
+    
     .imgPrinc{
-      width: 300px;
+      width: 470px;
       position: relative;
       top: 50px;
       right: -40px;
@@ -101,31 +103,31 @@ export default {
     position: relative;
     .imgYou{
       position: absolute;
-      width: 350px;
+      width: 470px;
       top: 40px;
       left: 10px;
       z-index: 1;
     }
     .svgIMG{
       position: absolute;
-      width: 80px;
-      top: 0px ;
-      left: -30px;
+      width: 100px;
+      top: -10px ;
+      left: -50px;
       
 
     }
     .romboPoints{
       position: absolute;
-      width: 70px;
+      width: 110px;
       top: 60px;
-      left: -40px;
+      left: -80px;
 
     }
     .patternPoints{
        position: absolute;
-       width: 70px;
-       bottom: -80px;
-       right: 140px;
+       width: 100px;
+       bottom: -100px;
+       right: 180px;
     }
     .YTsimbol{
       width: 60px;

@@ -6,7 +6,7 @@
 
     <div class="containerr mt-5 ">
       <div class="row text-center">
-        <div class="col-12">
+        <div class="col-12 mt-5">
           <div class="smallDiciture">JOIN MAXCOACH AT BEST</div>
           <h2>Latest Online <h2 class="thinH2">Courses</h2></h2>
         </div>

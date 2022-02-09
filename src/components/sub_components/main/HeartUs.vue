@@ -12,10 +12,10 @@
               
               
 
-                <div @click="userHeart[0].current==true ? userHeart[0].current=false : userHeart[0].current=true "  :class="userHeart[0].current==true ?'active' : 'unActivetop' "    >
+                <div @click="userHeart[0].current==true "  :class="userHeart[0].current==true ?'active' : 'unActivetop' "    >
                     <div class="formUser m-2">{{userHeart[0].title}}</div>
                     <div class="smallDiciture m-3">{{userHeart[0].request}}</div>
-                    <div class="d-flex m-3">
+                    <div class="d-flex m-3 mt-5 ">
                         <img class="piccoloUser " :src='userHeart[0].img' alt="">
                         <div >
                             <div class="formUser">{{userHeart[0].name}}</div>
@@ -56,7 +56,7 @@
         </div>
         
     </div>
-    <div class="row myT">
+    <div class="row myT ">
         <div class="col-7 ">
 
             <img class='teamIMG' src="../../../assets/image/home-3-team-image.png" alt="">
@@ -173,7 +173,7 @@ export default {
 }
 
 .myT{
-    margin-top: 8rem !important;
+    margin-top: 10rem !important;
     .teamIMG{
         width: 350px;
         position: relative;

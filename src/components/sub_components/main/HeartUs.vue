@@ -1,13 +1,13 @@
 <template>
 <div class="containerr">
     <div class="row">
-        <div class="col-5">
+        <div class="col-6">
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
           <h2>Why Do People <h2 class="thinH2">*Hearts*</h2>Us?</h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
           <p class='view'>view of <i class="view bi-arrow-right"></i></p>
         </div>
-        <div class="col-7">
+        <div class="col-6">
             <div v-for="(elementi, index) in userHeart" :key="index" class="userCard">
                 <div   :class="elementi.current ?'active' : 'unActive' " class="userCard">
                     <div class="formUser m-2">{{elementi.title}}</div>

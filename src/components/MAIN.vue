@@ -4,7 +4,7 @@
 
     <workCulture/>
 
-    <div class="containerr ">
+    <div class="containerr mt-5 ">
       <div class="row text-center">
         <div class="col-12">
           <div class="smallDiciture">JOIN MAXCOACH AT BEST</div>
@@ -30,9 +30,20 @@
     </div>
 
     <HeartUs/>
-    
+  <div class="container-fluid firstBack pt-3">
 
-    <ourBlogs/>
+    <div class="containerr myback-color">
+      <div class="row text-center mt-5">
+        <div class="col-12">
+          <div class="smallDiciture">JOIN MAXCOACH AT BEST</div>
+          <h2 class="mt-5">Latest Of <h2 class="thinH2 d-inline ">Our Blogs</h2></h2>
+        </div>
+
+        <ourBlogs :arrayBlogs='blogs'/>
+
+      </div>
+    </div>
+  </div>
 
   </div>
 </template>
@@ -65,7 +76,7 @@ export default {
           price:'$40.00',
           wtdo:'Learning toWrite as a Professional Author',
           nlessons:'20 Lessons',
-          nstudents:'50 students',
+          views:'50 students',
           free: false,
 
         },
@@ -89,6 +100,37 @@ export default {
 
         },
         
+      ],
+    blogs:[
+        {
+          img: require('../assets/image/artist-blog-03-480x325.jpeg'),
+          artist:'artist',
+          wtdo:'Brush Strokes Energize Trees in Pointings',
+          day: 'may 15, 2020',
+          views:'50 views',
+         
+
+        },
+        {
+          img: require('../assets/image/artist-blog-01-480x325.jpg'),
+          artist:'artist',
+          wtdo:'pocket-Snized notebooks Hold Miniature Paintings',
+          day: 'may 15, 2020',
+          views:'789 views',
+         
+
+
+        },
+        {
+          img: require('../assets/image/artist-blog-02-480x325.jpg'),
+          artist:'artist',
+          wtdo:'Connection Between Self-Portraits and Identity',
+          day: 'may 15, 2020',
+          views: '688 views',
+          
+
+        },
+        
       ]
     }
   }
@@ -100,7 +142,7 @@ export default {
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
   @import '../assets/style/variables.scss';
   .firstBack{
-    background-color: #e6e6e4;
+    background-color: #ececec;
   }
   .view{
     color: black;
@@ -111,6 +153,7 @@ export default {
     max-width: 1000px;
     margin: 0px auto;
     margin-top: 100px;
+    padding-bottom: 150px;
   }
   .bi-dot{
     line-height: 40px;

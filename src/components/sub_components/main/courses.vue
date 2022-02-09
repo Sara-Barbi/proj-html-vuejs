@@ -1,5 +1,5 @@
 <template>
-  <div class="courses d-flex justify-content-center">
+  <div class="courses d-flex justify-content-center mt-5">
   
       <div v-for="(elementi, index) in arrayCour" :key="index" class="col-4 m-3">
           
@@ -29,7 +29,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style  lang="scss">
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
   @import '../../../assets/style/variables.scss';
   .back{

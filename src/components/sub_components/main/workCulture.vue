@@ -1,6 +1,6 @@
 <template>
     <div class="containerr1">
-      <div class="row  justify-content-center mb-5">
+      <div class="row  justify-content-center">
         <div class="col-6 mt-5  ps-5 ">
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
           <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
@@ -141,6 +141,7 @@ export default {
     max-width: 1000px;
     margin: 0px auto;
     margin-top: 0px;
+    margin-bottom: 150px;
 
   }
 </style>

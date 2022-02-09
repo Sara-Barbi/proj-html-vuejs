@@ -37,6 +37,11 @@
 
         </div>
         <div class="col-5">
+            <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
+            <h2>We're Here To <h2 class="thinH2">Transform</h2>You</h2>
+            <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.and regustration deadline. Were opening new classes every beginningand regustration deadline. Were opening new classes every beginning</p>
+            <button class="greenB">Get Free Guide</button>
+
 
         </div>
     </div>
@@ -162,6 +167,15 @@ export default {
         
         
     }
+}
+.greenB{
+    padding: 10px 30px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #1fad95;
+    border: 0px;
+    border-radius: 5px;
 }
 
 </style>

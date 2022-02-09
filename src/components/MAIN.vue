@@ -1,14 +1,18 @@
 <template>
   <div class="main">
     <div class="firstBack">
+
     <workCulture/>
+
     <div class="containerr ">
       <div class="row text-center">
         <div class="col-12">
           <div class="smallDiciture">JOIN MAXCOACH AT BEST</div>
           <h2>Latest Online <h2 class="thinH2">Courses</h2></h2>
         </div>
+
         <courses :arrayCour='courses'/>
+
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <div class="dots d-flex align-content-center justify-content-center"><i class="bi bi-dot bigSize"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i></div>
@@ -20,9 +24,12 @@
           </div>
         </div>
 
+
       </div>
     </div>
     </div>
+
+    <HeartUs/>
     
 
     <ourBlogs/>
@@ -34,6 +41,8 @@
 import courses from './sub_components/main/courses.vue'
 import ourBlogs from './sub_components/main/ourBlogs.vue'
 import workCulture from './sub_components/main/workCulture.vue'
+import HeartUs from './sub_components/main/HeartUs.vue'
+
 
 
 
@@ -45,7 +54,8 @@ export default {
   components:{
     courses,
     ourBlogs,
-    workCulture
+    workCulture,
+    HeartUs
   },
   data(){
     return{
@@ -95,6 +105,7 @@ export default {
   .view{
     color: black;
     font-weight: bold;
+    font-size: 12px;
   }
   .containerr{
     max-width: 1000px;

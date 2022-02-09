@@ -6,9 +6,10 @@
             <div class="back">
               <img class="mb-2" :src="elementi.img" alt="">
               <div class="greenPrice mb-3">{{elementi.price}}</div>
-              <div class="boldText mb-4"> {{elementi.wtdo}}</div>
-              <span class="smallDiciture me-3"><i class="bi bi-postcard"></i>{{elementi.nlessons}}</span>
-              <span class="smallDiciture"><i class="bi bi-person"></i>{{elementi.nstudents}}</span>
+              <div class="boldText mb-4 "> {{elementi.wtdo}}</div>
+              
+              <span class="smallDiciture mt-4 me-3"><i class="bi bi-postcard"></i>{{elementi.nlessons}}</span>
+              <span class="smallDiciture mt-4"><i class="bi bi-person"></i>{{elementi.nstudents}}</span>
             </div>   
       </div>
 

@@ -1,11 +1,11 @@
 <template>
-    <div class="containerr">
+    <div class="containerr1">
       <div class="row  justify-content-center">
         <div class="col-5 mt-5  ps-5 ">
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
           <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
-          <p class='smallDiciture'>Have questions?get Free Guide</p>
+          <span class='smallDiciture view ' >Have questions? <span style="color:#2fab97;">Get Free Guide <i class="view bi-arrow-right"></i></span></span>
         </div>
         <div class="col-5 mt-5">
           <img class='imgPrinc' src="../../../assets/image/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
@@ -38,7 +38,8 @@
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
           <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
-          <p class='smallDiciture'>Have questions?get Free Guide</p>
+          <span class='smallDiciture view ' >Have questions? <span style="color:#2fab97;">Get Free Guide <i class="view bi-arrow-right"></i></span></span>
+          
         </div>
       </div>
     </div>
@@ -53,6 +54,8 @@ export default {
 </script>
 
 <style lang="scss">
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
+ @import '../../../assets/style/variables.scss';
 .bigSize{
     font-size: 40px;
     margin-right: -10px;
@@ -132,5 +135,12 @@ export default {
       transform: translate(64%, -20%);
       z-index: 2 ;
     }
+  }
+  .containerr1{
+ 
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-top: 0px;
+
   }
 </style>

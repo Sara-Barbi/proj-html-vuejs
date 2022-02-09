@@ -170,7 +170,7 @@ export default {
   }
   .thinH2{
     color: #2fab97;
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 0;
   }
   

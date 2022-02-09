@@ -9,6 +9,16 @@
           <h2>Latest Online <h2 class="thinH2">Courses</h2></h2>
         </div>
         <courses :arrayCour='courses'/>
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="dots d-flex align-content-center justify-content-center"><i class="bi bi-dot bigSize"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i></div>
+
+          </div>
+          <div class="col-5 text-center">
+            <div class="smallDiciture">Controll your personal preference settings to get notified about appropriate courses. <div class="view">View all courses  <i class="view bi-arrow-right"></i></div></div>
+
+          </div>
+        </div>
 
       </div>
     </div>
@@ -41,7 +51,7 @@ export default {
     return{
       courses:[
         {
-          img: 'course-02-480x298.jpg',
+          img: require('../assets/image/course-02-480x298.jpg'),
           price:'$40.00',
           wtdo:'Learning toWrite as a Professional Author',
           nlessons:'20 Lessons',
@@ -50,7 +60,7 @@ export default {
 
         },
         {
-          img: 'stock-full-hd-03-480x298.jpg',
+          img: require('../assets/image/stock-full-hd-03-480x298.jpg'),
           price:'$0.00',
           wtdo:'Customer-centric Info-Tech Strategies',
           nlessons:'23 Lessons',
@@ -60,7 +70,7 @@ export default {
 
         },
         {
-          img: 'stock-full-hd-04-480x298.jpg',
+          img: require('../assets/image/stock-full-hd-04-480x298.jpg'),
           price:'$19.00',
           wtdo:'Open Programming Courses for Everyone: Python',
           nlessons:'17 Lessons',
@@ -82,86 +92,17 @@ export default {
   .firstBack{
     background-color: #e6e6e4;
   }
+  .view{
+    color: black;
+    font-weight: bold;
+  }
   .containerr{
     max-width: 1000px;
     margin: 0px auto;
     margin-top: 100px;
   }
-
-  div{
-    
-    position: relative;
-    .imgPrinc{
-      width: 300px;
-      position: relative;
-      top: 50px;
-      right: -40px;
-      margin: auto 0;
-      z-index: 1;
-
-    }
-    .imgTop{
-      position: absolute;
-      width: 80px;
-      top: 20px;
-      z-index: 2;
-    
-
-    }
-    .pattern{
-      position: absolute;
-      top: 26px;
-      right: 150px;
-      width: 78px;
-
-    }
-    .circle{
-      width:70px;
-      position: absolute;
-      z-index: 3;
-      bottom: 30px;
-      right: 200px;
-
-    }
-  }
-  div{
-    position: relative;
-    .imgYou{
-      position: absolute;
-      width: 350px;
-      top: 40px;
-      right: 10px;
-      z-index: 1;
-    }
-    .svgIMG{
-      position: absolute;
-      width: 50px;
-      top: 10px ;
-      right: 330px ;
-      
-
-    }
-    .romboPoints{
-      position: absolute;
-      width: 70px;
-      top: 45px;
-      right: 340px;
-
-    }
-    .patternPoints{
-       position: absolute;
-       width: 70px;
-       bottom: -10px;
-       right: 0;
-    }
-    .YTsimbol{
-      width: 60px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(64%, -20%);
-      z-index: 2 ;
-    }
+  .bi-dot{
+    line-height: 40px;
   }
   .greenNumb{
     color: #2fab97;

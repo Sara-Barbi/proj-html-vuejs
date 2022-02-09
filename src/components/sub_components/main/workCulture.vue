@@ -52,6 +52,85 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+.bigSize{
+    font-size: 40px;
+    margin-right: -10px;
+  }
 
+  div{
+    
+    position: relative;
+    .imgPrinc{
+      width: 300px;
+      position: relative;
+      top: 50px;
+      right: -40px;
+      margin: auto 0;
+      z-index: 1;
+
+    }
+    .imgTop{
+      position: absolute;
+      width: 80px;
+      top: 20px;
+      z-index: 2;
+    
+
+    }
+    .pattern{
+      position: absolute;
+      top: 26px;
+      right: 150px;
+      width: 78px;
+
+    }
+    .circle{
+      width:70px;
+      position: absolute;
+      z-index: 3;
+      bottom: 30px;
+      right: 200px;
+
+    }
+  }
+  div{
+    position: relative;
+    .imgYou{
+      position: absolute;
+      width: 350px;
+      top: 40px;
+      right: 10px;
+      z-index: 1;
+    }
+    .svgIMG{
+      position: absolute;
+      width: 50px;
+      top: 10px ;
+      right: 330px ;
+      
+
+    }
+    .romboPoints{
+      position: absolute;
+      width: 70px;
+      top: 45px;
+      right: 340px;
+
+    }
+    .patternPoints{
+       position: absolute;
+       width: 70px;
+       bottom: -10px;
+       right: 0;
+    }
+    .YTsimbol{
+      width: 60px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(64%, -20%);
+      z-index: 2 ;
+    }
+  }
 </style>

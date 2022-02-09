@@ -71,6 +71,18 @@ export default {
     border: 0px;
     border-radius: 10px;
   }
+  .downloadGuide:hover{
+    width: 18%;
+    background-color: rgb(27, 144, 105);
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    border: 0px;
+    border-radius: 10px;
+    transition: 1s ;
+    
+  }
 
 
 </style>

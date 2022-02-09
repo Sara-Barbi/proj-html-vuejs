@@ -15,7 +15,7 @@
 
         <div class="row justify-content-center">
           <div class="col-12 text-center">
-            <div class="dots d-flex align-content-center justify-content-center"><i class="bi bi-dot bigSize"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i></div>
+            <div class="dots d-flex align-content-center justify-content-center"><i class="bi bi-dot bigSize"></i><i class="bi bi-dot" ></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i><i class="bi bi-dot"></i></div>
 
           </div>
           <div class="col-5 text-center">
@@ -27,9 +27,9 @@
 
       </div>
     </div>
-    </div>
+  </div>
 
-    <HeartUs/>
+  <HeartUs/>
   <div class="container-fluid firstBack pt-3">
 
     <div class="containerr myback-color">

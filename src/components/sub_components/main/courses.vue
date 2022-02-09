@@ -52,5 +52,9 @@ export default {
     }
 
   }
+  .back:hover{
+    color:#2fab97;
+    transition: 0.5s;
+  }
   
 </style>

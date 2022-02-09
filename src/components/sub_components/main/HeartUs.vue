@@ -8,20 +8,50 @@
           <p class='view'>view of <i class="view bi-arrow-right"></i></p>
         </div>
         <div class="col-6">
-            <div v-for="(elementi, index) in userHeart" :key="index" class="userCard">
-                <div   :class="elementi.current ?'active' : 'unActive' " class="userCard">
-                    <div class="formUser m-2">{{elementi.title}}</div>
-                    <div class="smallDiciture m-3">{{elementi.request}}</div>
+            <div  class="userCard">
+              
+              
+
+                <div @click="userHeart[0].current==true ? userHeart[0].current=false : userHeart[0].current=true "  :class="userHeart[0].current==true ?'active' : 'unActivetop' "    >
+                    <div class="formUser m-2">{{userHeart[0].title}}</div>
+                    <div class="smallDiciture m-3">{{userHeart[0].request}}</div>
                     <div class="d-flex m-3">
-                        <img class="piccoloUser " :src='elementi.img' alt="">
+                        <img class="piccoloUser " :src='userHeart[0].img' alt="">
                         <div >
-                            <div class="formUser">{{elementi.name}}</div>
-                            <div class="smallDiciture">{{elementi.profe}}</div>
+                            <div class="formUser">{{userHeart[0].name}}</div>
+                            <div class="smallDiciture">{{userHeart[0].profe}}</div>
                         </div>
                     </div>
-                    <div class="d-none">{{elementi.current}}</div>    
+                    <div class="d-none">{{userHeart[0].current}}</div>    
                 
                 </div>
+                <div   :class="userHeart[1].current==true ?'active' : 'unActive' " class="userCard"  @click="userHeart[1].current==false ? userHeart[1].current=true : userHeart[1].current=false" >
+                    <div class="formUser m-2">{{userHeart[1].title}}</div>
+                    <div class="smallDiciture m-3">{{userHeart[1].request}}</div>
+                    <div class="d-flex m-3">
+                        <img class="piccoloUser " :src='userHeart[1].img' alt="">
+                        <div >
+                            <div class="formUser">{{userHeart[1].name}}</div>
+                            <div class="smallDiciture">{{userHeart[1].profe}}</div>
+                        </div>
+                    </div>
+                    <div class="d-none">{{userHeart[1].current}}</div>    
+                
+                </div>
+                <div   :class="userHeart[2].current==true ?'active' : 'unActivetop' " class="userCard"  @click="userHeart[2].current==false ? userHeart[2].current=true : userHeart[2].current=false" >
+                    <div class="formUser m-2">{{userHeart[2].title}}</div>
+                    <div class="smallDiciture m-3">{{userHeart[2].request}}</div>
+                    <div class="d-flex m-3">
+                        <img class="piccoloUser " :src='userHeart[2].img' alt="">
+                        <div >
+                            <div class="formUser">{{userHeart[2].name}}</div>
+                            <div class="smallDiciture">{{userHeart[2].profe}}</div>
+                        </div>
+                    </div>
+                    <div class="d-none">{{userHeart[2].current}}</div>    
+                
+                </div>
+              
             </div>
         </div>
         
@@ -109,8 +139,8 @@ export default {
 
 .active{
     background-color: rgb(255, 255, 255);
-
-    z-index:2;
+    z-index: 1;
+    min-height: 210px;
     top: 0 ;
     left: 0;
     
@@ -120,17 +150,26 @@ export default {
 
 }
 .userCard{
-    min-height: 200px;
+    min-height: 210px;
     position: absolute;
     width: 100%;
 }
 
 .unActive{
     
-    top: 60px;
-    right: -20px;
+    top: 80px;
+    right: -30px;
     filter: opacity(40%);
-    z-index: 0;
+    
+    background-color:rgb(255, 255, 255);
+}
+.unActivetop{
+    
+    top: -50px;
+    right: -30px;
+    filter: opacity(40%);
+    
+    background-color:rgb(255, 255, 255);
 }
 
 .myT{

@@ -50,15 +50,27 @@ export default {
    border-radius: 0px 5px 5px 0px;
    color: white;
  }
+ .SubButton:hover{
+   font-size: 10px;
+   font-weight: bold;
+   padding: 12px 20px;
+   background-color: #ffffff;
+   border-radius: 0px 5px 5px 0px;
+   color: #1fad95;
+   border: 0.5px solid grey;
+   transition: 1s;
+ }
  .patterNews{
+   width: 170px;
    position: absolute;
-   right: 0px;
-   top: 20px;
+   right: 20px;
+   top: 10px;
  }
  .circleNews{
    position:absolute;
-   bottom: 170px;
-   right: -20px;
+   width: 100px;
+   bottom: 140px;
+   right: 10px;
  }
  .containerr{
    max-height: 350px;

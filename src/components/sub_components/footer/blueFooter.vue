@@ -1,8 +1,8 @@
 <template>
 <div class="blueFooter">
     <div class="container-fluid myblueFooter mt-0 pt-0">
-        <div class="containerr myHFOOTER">
-            <div class="row pt-5 mt-5 " >
+        <div class="containerr mt-0 myHFOOTER">
+            <div class="row pt-5 " >
                 <div class="col-6">
                     <div v-for="(elementi,index) in myFoot" :key="index">
                         <div class="myTit">{{elementi.locality.title}}</div>
@@ -68,7 +68,7 @@ export default {
  
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
 
 .myblueFooter{
@@ -92,6 +92,9 @@ ul{
         }
 
     }
+}
+.smallDiciture:hover{
+    color: white;
 }
 .mymax{
     max-height: 130px;

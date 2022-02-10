@@ -1,13 +1,13 @@
 <template>
 <div class="containerr">
     <div class="row">
-        <div class="col-6">
+        <div class="col-5">
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
           <h2>Why Do People <h2 class="thinH2">*Hearts*</h2>Us?</h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
           <p class='view'>view of <i class="view bi-arrow-right"></i></p>
         </div>
-        <div class="col-6">
+        <div class="col-7">
             <div  class="userCard">
               
               
@@ -35,7 +35,7 @@
                             <div class="smallDiciture">{{userHeart[1].profe}}</div>
                         </div>
                     </div>
-                    <div class="d-none">{{userHeart[1].current}}</div>    
+                    <div class="myCtoRET">Click To Return</div>    
                 
                 </div>
                 <div   :class="userHeart[2].current==true ?'active' : 'unActivetop' " class="userCard"  @click="userHeart[2].current==false ? userHeart[2].current=true : userHeart[2].current=false" >
@@ -48,7 +48,8 @@
                             <div class="smallDiciture">{{userHeart[2].profe}}</div>
                         </div>
                     </div>
-                    <div class="d-none">{{userHeart[2].current}}</div>    
+                    <div class="myCtoRET">Click To Return</div>    
+                       
                 
                 </div>
               
@@ -61,7 +62,7 @@
 
             <img class='teamIMG' src="../../../assets/image/home-3-team-image.png" alt="">
             <img class="puntodiPunti" src="../../../assets/image/maxcoach-shape-05-100x100.png" alt="">
-            <img class="iSVG" src="../../../assets/image/svg-0.svg" alt="">
+            <img class="iSVG"  src="../../../assets/image/svg-0.svg" alt="">
             <img class='linee' src="../../../assets/image/maxcoach-shape-07-100x100.png" alt="">
             <img class="quadratodiPunti" src="../../../assets/image/maxcoach-shape-01.png" alt="">
 
@@ -190,6 +191,7 @@ export default {
         position: absolute;
         top: 10px;
         left: 5px;
+        filter: invert(51%) sepia(99%) saturate(334%) hue-rotate(122deg) brightness(89%) contrast(93%) opacity(0.5);
     }
     .linee{
         position: absolute;
@@ -215,6 +217,10 @@ export default {
     background-color: #1fad95;
     border: 0px;
     border-radius: 5px;
+}
+.myCtoRET{
+    color: rgb(208, 206, 206) ;
+    font-size: 11px;
 }
 
 </style>

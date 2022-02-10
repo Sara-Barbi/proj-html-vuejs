@@ -113,6 +113,7 @@ export default {
       width: 100px;
       top: -10px ;
       left: -50px;
+      filter: invert(89%) sepia(3%) saturate(22%) hue-rotate(314deg) brightness(84%) contrast(81%) opacity(0.3);
       
 
     }

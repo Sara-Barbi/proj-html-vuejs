@@ -2,6 +2,7 @@
   <div class="footer">
     
     <newsLetter/>
+    <blueFooter/>
 
 
   </div>
@@ -10,6 +11,7 @@
 <script>
 
 import newsLetter from './sub_components/footer/newsLetter.vue'
+import blueFooter from './sub_components/footer/blueFooter.vue'
 
 export default {
   name: 'FOOTER',
@@ -17,7 +19,8 @@ export default {
     
   },
   components:{
-    newsLetter
+    newsLetter,
+    blueFooter
   }
 }
 </script>

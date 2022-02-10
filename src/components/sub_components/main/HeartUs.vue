@@ -216,9 +216,7 @@ export default {
         position: absolute;
         top: -70px;
         left: -20px;
-
-
-        
+        filter: opacity(0.5);
     }
     
 }

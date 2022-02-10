@@ -105,6 +105,8 @@ export default {
       width: 50px;
       position: absolute;
       left: -40px;
+      filter: opacity(0.5);
+
 
 
     }
@@ -154,6 +156,8 @@ export default {
       right: -30px;
       top: -10px;
       position: absolute;
+      filter: opacity(0.5);
+
     
     }
   }

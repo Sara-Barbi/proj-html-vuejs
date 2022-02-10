@@ -8,13 +8,15 @@
         </div>
       </div>
       <div class="row text-center justify-content-center">
-        <div class=" col-6 mt-5 pt-5 mb-3">
+        <div class=" col-6 pt-5 mb-3">
           <input type="text" class="SubscribeInput" placeholder="Enter your email" >
           <span class="SubButton" >Subscribe</span>
         </div>
       </div>
       <img class="patterNews" src="../../../assets/image/maxcoach-shape-09.png" alt="">
       <img class="circleNews" src="../../../assets/image/maxcoach-shape-02.png" alt="">
+      <img class="Circle" src="../../../assets/image/cerchio.png" alt="">
+      
     </div>
 
   </div>
@@ -74,5 +76,11 @@ export default {
  }
  .containerr{
    max-height: 350px;
+ }
+ .Circle{
+   width: 50px;
+   position: absolute;
+   bottom: 45%;
+   filter: invert(55%) sepia(56%) saturate(507%) hue-rotate(121deg) brightness(93%) contrast(85%) opacity(0.5);
  }
 </style>

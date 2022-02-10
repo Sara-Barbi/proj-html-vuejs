@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-5">
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
-          <h2>Why Do People <h2 class="thinH2">*Hearts*</h2>Us?</h2>
+          <h2 class="fw-bolder">Why Do People <h2 class="thinH2">*Hearts*</h2>Us?</h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
           <p class='view'>view of <i class="view bi-arrow-right"></i></p>
         </div>
@@ -69,7 +69,7 @@
         </div>
         <div class="col-5">
             <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
-            <h2>We're Here To <h2 class="thinH2">Transform</h2>You</h2>
+            <h2 class="fw-bolder">We're Here To <h2 class="thinH2">Transform</h2>You</h2>
             <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.and regustration deadline. Were opening new classes every beginningand regustration deadline. Were opening new classes every beginning</p>
             <button class="greenB">Get Free Guide</button>
 
@@ -126,6 +126,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import '../../../assets/style/variables.scss';
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
 .piccoloUser{
     width: 40px;
@@ -214,9 +215,20 @@ export default {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    background-color: #1fad95;
+    background-color: $celesteACQ;
     border: 0px;
     border-radius: 5px;
+}
+.greenB:hover{
+    padding: 10px 30px;
+    color: $celesteACQ;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    transition: 1s;
+    border: 0.5px solid $smallDcolor;
 }
 .myCtoRET{
     color: rgb(208, 206, 206) ;

@@ -70,7 +70,7 @@ export default {
 
 <style lang="scss" scoped>
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
-
+@import '../../../assets/style/variables.scss';
 .myblueFooter{
     background-color: rgb(15, 15, 23) ;
     
@@ -85,7 +85,7 @@ ul{
         i{
              
         width: 25px;
-        color: grey;
+        color: $smallDcolor;
         margin-right: 20px;
         
    
@@ -104,7 +104,7 @@ ul{
 }
 .rights{
     font-size: 10px;
-    color: grey;
+    color: $smallDcolor;
 }
 
 </style>

@@ -8,7 +8,7 @@
       <div class="row text-center">
         <div class="col-12 mt-5">
           <div class="smallDiciture">JOIN MAXCOACH AT BEST</div>
-          <h2>Latest Online <h2 class="thinH2">Courses</h2></h2>
+          <h2 class="fw-bolder">Latest Online <h2 class="thinH2" style="display:inline-block">Courses</h2></h2>
         </div>
 
         <courses :arrayCour='courses'/>
@@ -37,7 +37,7 @@
       <div class="row text-center mt-5">
         <div class="col-12">
           <div class="smallDiciture">JOIN MAXCOACH AT BEST</div>
-          <h2 class="mt-5">Latest Of <h2 class="thinH2 d-inline ">Our Blogs</h2></h2>
+          <h2 class=" fw-bolder mt-5">Latest Of <h2 class="thinH2 d-inline ">Our Blogs</h2></h2>
         </div>
 
         <ourBlogs :arrayBlogs='blogs'/>
@@ -143,7 +143,7 @@ export default {
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"); 
   @import '../assets/style/variables.scss';
   .firstBack{
-    background-color: #ececec;
+    background-color: $backsmoke;
   }
   .view{
     color: black;
@@ -160,20 +160,24 @@ export default {
     line-height: 40px;
   }
   .greenNumb{
-    color: #2fab97;
+    color: $celesteACQ;
     font-size: 30px;
     font-weight: bolder;
 
   }
   .smallDiciture{
-   font-size: 12px;
-   color: grey;
+   font-size: $smallDfont;
+   color: $smallDcolor;
   }
-  .thinH2{
-    color: #2fab97;
+  h2{
+    font-weight: bolder;
+    .thinH2{
+    color: $celesteACQ;
     font-weight: 300;
     margin-bottom: 0;
+    }
   }
+  
   .imgBack{
     width: 100%;
     height: 80px;

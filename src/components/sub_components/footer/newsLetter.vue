@@ -3,7 +3,7 @@
     <div class="containerr mt-5 ">
       <div class="row text-center justify-content-center">
         <div class="col-6 mt-5">
-          <h2>Subscribe <h2 class="thinH2" style="display:inline-block">Newsletter</h2></h2>
+          <h2 class=" fw-bolder" >Subscribe <h2 class="thinH2" style="display:inline-block">Newsletter</h2></h2>
           <div class="smallDiciture">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati enim incidunt illo  Voluptatem obcaecati enim incidunt illo Voluptatem obcaecati enim incidunt illo  </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default {
     border: 0px;
     border-radius: 5px;
     font-size: 11px;
-    background-color: #ececec;
+    background-color: $backsmoke;
     padding: 10px 115px 10px 25px;
 
 
@@ -46,7 +46,7 @@ export default {
    font-size: 10px;
    font-weight: bold;
    padding: 12px 20px;
-   background-color: #1fad95;
+   background-color: $celesteACQ;
    border-radius: 0px 5px 5px 0px;
    color: white;
  }
@@ -56,8 +56,8 @@ export default {
    padding: 12px 20px;
    background-color: #ffffff;
    border-radius: 0px 5px 5px 0px;
-   color: #1fad95;
-   border: 0.5px solid grey;
+   color: $celesteACQ;
+   border: 0.5px solid $smallDcolor;
    transition: 1s;
  }
  .patterNews{

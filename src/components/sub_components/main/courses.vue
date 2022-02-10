@@ -42,7 +42,7 @@ export default {
 
     }
     .greenPrice{
-    color: #2fab97;
+    color: $celesteACQ;
     font-size: 20px;
     font-weight: bold;
     }
@@ -53,7 +53,7 @@ export default {
 
   }
   .back:hover{
-    color:#2fab97;
+    color:$celesteACQ;
     transition: 0.5s;
   }
   

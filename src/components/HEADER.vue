@@ -6,7 +6,7 @@
     <div class="container-fluid ">
       <div class="row">
         <div class="col-12 text-center d-flex flex-column justify-content-center align-items-center myBack">
-          <h3>Commence Buisiness</h3>
+          <h3 class="fw-bolder">Commence Buisiness</h3>
           <h1>Distant Mentoring Program</h1>
           <button class="downloadGuide">Download free guidebook <i class="bi bi-arrow-right"></i></button>
         </div>
@@ -66,14 +66,14 @@ export default {
     background-color: white;
     font-size: 13px;
     font-weight: bold;
-    color: rgb(27, 144, 105);
+    color: $celesteACQ;
     padding: 10px 0;
     border: 0px;
     border-radius: 10px;
   }
   .downloadGuide:hover{
     width: 18%;
-    background-color: rgb(27, 144, 105);
+    background-color: $celesteACQ;
     font-size: 13px;
     font-weight: bold;
     color: rgb(255, 255, 255);

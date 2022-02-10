@@ -38,7 +38,7 @@ export default {
     border-radius: 3px;
   }
   .back{
-    background-color: #ececec;
+    background-color: $backsmoke;
   }
    
 </style>

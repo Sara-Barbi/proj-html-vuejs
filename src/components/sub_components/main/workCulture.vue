@@ -3,7 +3,7 @@
       <div class="row  justify-content-center ">
         <div class="col-4 pt-5 mt-5 ps-5 ">
           <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
-          <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
+          <h2 class="fw-bolder">Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
           <span class='smallDiciture view ' >Have questions? <span style="color:#2fab97;">Get Free Guide <i class="view bi-arrow-right"></i></span></span>
         </div>
@@ -12,6 +12,8 @@
           <img class='imgTop' src="../../../assets/image/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="">
           <img class='pattern' src="../../../assets/image/maxcoach-shape-07-100x100.png" alt="">
           <img class='circle' src="../../../assets/image/maxcoach-shape-02.png" alt="">
+          <img class="arcFCircle" src="../../../assets/image/cerchio.png" alt="">
+
 
         </div>
       </div>
@@ -31,14 +33,15 @@
           <img src="../../../assets/image/maxcoach-shape-05-150x150.png" alt="" class='romboPoints'>
           <img src="../../../assets/image/svg-0.svg" alt="" class='svgIMG'>
           <img class='patternPoints' src="../../../assets/image/maxcoach-shape-07-100x100.png" alt="">
+          <img class="arcCircle" src="../../../assets/image/cerchio.png" alt="">
           
 
         </div>
         <div class="col-4 pt-5   mt-5">
-          <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
-          <h2>Learn about our <h2 class="thinH2">Work Culture</h2>at maxCoach</h2>
+          <p class='smallDiciture'>HOW WE WORK</p>
+          <h2 class="fw-bolder">Upgrade Your Skills <h2 class="thinH2">Upgrade Your Life</h2></h2>
           <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.</p>
-          <span class='smallDiciture view ' >Have questions? <span style="color:#2fab97;">Get Free Guide <i class="view bi-arrow-right"></i></span></span>
+          <span class='smallDiciture' style="color:black; font-weight:bold;" >Download free guidebook<i class="view bi-arrow-right"></i></span>
           
         </div>
       </div>
@@ -98,6 +101,13 @@ export default {
       right: 200px;
 
     }
+    .arcFCircle{
+      width: 50px;
+      position: absolute;
+      left: -40px;
+
+
+    }
   }
   div{
     position: relative;
@@ -127,8 +137,8 @@ export default {
     .patternPoints{
        position: absolute;
        width: 100px;
-       bottom: -100px;
-       right: 180px;
+       bottom: -140px;
+       right: 190px;
     }
     .YTsimbol{
       width: 60px;
@@ -137,6 +147,14 @@ export default {
       left: 170px;
       transform: translate(64%, -20%);
       z-index: 2 ;
+    }
+    .arcCircle{
+      width: 50px;
+      height: 50px;
+      right: -30px;
+      top: -10px;
+      position: absolute;
+    
     }
   }
   .containerr1{

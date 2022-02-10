@@ -77,9 +77,10 @@ export default {
       line-height: 10px;
       vertical-align: middle;
       text-align: center;
-      background-color: rgb(85, 209, 168);
+      background-color: $celesteACQ;
       border-radius: 100%;
       position:absolute;
+      color: white;
       top: 0px;
       right: -5px;
     }
@@ -90,11 +91,11 @@ export default {
   .mySearch{
     padding:7px;
     border-radius: 10px;
-    background-color: #e2e2e0;
+    background-color: $backsmoke;
     position: relative;
     input{
       border: 0px;
-      background-color: #e2e2e0;
+      background-color: $backsmoke;
       .ii{
         float: left;
         position: absolute;

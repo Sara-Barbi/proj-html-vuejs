@@ -132,8 +132,8 @@ export default {
     .YTsimbol{
       width: 60px;
       position: absolute;
-      top: 150px;
-      left: 110px;
+      top: 180px;
+      left: 170px;
       transform: translate(64%, -20%);
       z-index: 2 ;
     }

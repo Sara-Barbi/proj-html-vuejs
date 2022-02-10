@@ -17,11 +17,14 @@
                 </div>
                 <div class="col-4">
                          <div v-for="(elementi,index) in myFoot" :key="index">
-                        <div class="myTit">{{elementi.locality.title}}</div>
+                        <div class="myTit">{{elementi.expl.title}}</div>
                         <ul>
-                            <li>{{elementi.locality.coordinate}}</li>
-                            <li>{{elementi.locality.num}}</li>
-                            <li>{{elementi.locality.email}}</li>
+                            <li>{{elementi.expl.start}}</li>
+                            <li>{{elementi.expl.blog}}</li>
+                            <li>{{elementi.expl.about}}</li>
+                            <li>{{elementi.expl.success}}</li>
+                            <li>{{elementi.expl.courses}}</li>
+                            <li>{{elementi.expl.contact}}</li>
                             
                         </ul>
                     </div>
@@ -29,11 +32,12 @@
                 </div>
                 <div class="col-2">
                          <div v-for="(elementi,index) in myFoot" :key="index">
-                        <div class="myTit">{{elementi.locality.title}}</div>
+                        <div class="myTit">{{elementi.information.info}}</div>
                         <ul>
-                            <li>{{elementi.locality.coordinate}}</li>
-                            <li>{{elementi.locality.num}}</li>
-                            <li>{{elementi.locality.email}}</li>
+                            <li>{{elementi.information.members}}</li>
+                            <li>{{elementi.information.guide}}</li>
+                            <li>{{elementi.information.privacy}}</li>
+                            <li>{{elementi.information.service}}</li>
                             
                         </ul>
                     </div>

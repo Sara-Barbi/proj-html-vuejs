@@ -49,7 +49,7 @@ export default {
           guide:'Purchase guide',
           privacy:'Privacy policy',
           service:'Terms of service',
-          }
+          },
  
         }
         ]

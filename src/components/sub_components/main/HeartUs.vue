@@ -66,8 +66,10 @@
             <img class='linee' src="../../../assets/image/maxcoach-shape-07-100x100.png" alt="">
             <img class="quadratodiPunti" src="../../../assets/image/maxcoach-shape-01.png" alt="">
 
+
         </div>
         <div class="col-5">
+            <img class="CCircle" src="../../../assets/image/cerchio.png" alt="">
             <p class='smallDiciture'>EVERYTHING IN MAXCOACH</p>
             <h2 class="fw-bolder">We're Here To <h2 class="thinH2">Transform</h2>You</h2>
             <p class='smallDiciture'>Spend some time to visit our website ar head office and discover our current courses, enrollmen procedure,and regustration deadline. Were opening new classes every beginning of each month.and regustration deadline. Were opening new classes every beginningand regustration deadline. Were opening new classes every beginning</p>
@@ -209,6 +211,16 @@ export default {
         
         
     }
+    .CCircle{
+        width: 50px;
+        position: absolute;
+        top: -70px;
+        left: -20px;
+
+
+        
+    }
+    
 }
 .greenB{
     padding: 10px 30px;

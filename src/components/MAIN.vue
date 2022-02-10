@@ -4,7 +4,7 @@
 
     <workCulture/>
 
-    <div class="containerr mt-5 ">
+    <div class="containerr pb-2 mt-5 ">
       <div class="row text-center">
         <div class="col-12 mt-5">
           <div class="smallDiciture">JOIN MAXCOACH AT BEST</div>
@@ -27,6 +27,7 @@
 
       </div>
     </div>
+          <img class="imgBack" src="../assets/image/svg-1.svg" alt="">
   </div>
 
   <HeartUs/>
@@ -173,6 +174,10 @@ export default {
     font-weight: 300;
     margin-bottom: 0;
   }
-  
+  .imgBack{
+    width: 100%;
+    height: 80px;
+    filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(196deg) brightness(103%) contrast(100%);
+  }
 
 </style>

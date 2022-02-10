@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     
-    <newsLetter/>
-    <blueFooter/>
+    <newsLetter />
+    <blueFooter :myFoot='infoFooter'/>
 
 
   </div>
@@ -21,6 +21,40 @@ export default {
   components:{
     newsLetter,
     blueFooter
+  },
+  data(){
+    return{
+      infoFooter:[
+         {
+          locality:{
+            title:'Address',
+            coordinate:'328 NE 191st St #87394 Miami, FL 33179-23334',
+            num: '+1(234)234-6553 (9am-5pm EST, Monday-Friday)',
+            email:'support@maxcoach.com'
+          },
+          expl:{
+            title:'Explore',
+            start:'Start here',
+            blog:'Blog',
+            about:'About Us',
+            success:'Success story',
+            courses:'Courses',
+            contact:'Contact Us'
+
+          },
+          information:{
+
+          info:'Information',
+          members:'Membership',
+          guide:'Purchase guide',
+          privacy:'Privacy policy',
+          service:'Terms of service',
+          }
+ 
+        }
+        ]
+      
+    }
   }
 }
 </script>

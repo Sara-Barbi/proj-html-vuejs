@@ -13,6 +13,8 @@
           <span class="SubButton" >Subscribe</span>
         </div>
       </div>
+      <img class="patterNews" src="../../../assets/image/maxcoach-shape-09.png" alt="">
+      <img class="circleNews" src="../../../assets/image/maxcoach-shape-02.png" alt="">
     </div>
 
   </div>
@@ -47,5 +49,18 @@ export default {
    background-color: #1fad95;
    border-radius: 0px 5px 5px 0px;
    color: white;
+ }
+ .patterNews{
+   position: absolute;
+   right: 0px;
+   top: 20px;
+ }
+ .circleNews{
+   position:absolute;
+   bottom: 170px;
+   right: -20px;
+ }
+ .containerr{
+   max-height: 350px;
  }
 </style>
